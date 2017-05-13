@@ -1,0 +1,8 @@
+INVALID_AUTH_TOKEN_SOCIAL_LOGIN = ""
+MISSING_SOCIAL_LOGIN_ID         = ""
+INVALID_FB_TOKEN                = "The Facebook token provided is invalid or expired, Try again later"
+INVALID_GOOGLE_TOKEN            = "The Google token provided is invalid or expired, Try again later"
+TYPE_LOGIN_NOT_FOUND            = "login_type Not Found"
+USER_ID_NOT_FOUND               = "user_id Not Found"
+AUTH_NOT_FOUND                  = "auth Not Found"
+UNKNOWN_LOGIN_TYPE              = "Unknown Login Type"

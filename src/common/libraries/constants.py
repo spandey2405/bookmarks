@@ -1,0 +1,59 @@
+# User Sign in / sign up constants
+
+MAX_NAME_LENGTH = 50
+MIN_NAME_LENGTH = 3
+MAX_EMAIL_LENGTH = 100
+MAX_PASSWORD_LENGTH = 200
+UID_LENGTH = 64
+MIN_PASSWORD_LENGTH = 3
+SALT_LENGTH = 16
+SOCIAL_ID_LENGTH = 30
+TOKEN_LENGTH = 40
+
+KEY_CUSTOMER_REF = 'customer_ref'
+KEY_USER_ID = 'user_id'
+KEY_USER_NAME = 'name'
+KEY_EMAIL_ID = 'email'
+KEY_PHONE_NO = 'phoneno'
+KEY_PASSWORD_HASH = 'password_hash'
+KEY_TOKEN = 'token'
+KEY_SALT = 'salt'
+KEY_FIELDS_GET = 'fields'
+KEY_TOKEN = 'HTTP_TOKEN'
+KEY_ADMIN = 'HTTP_ADMIN'
+
+HTTP_METHOD_POST        = 'POST'
+HTTP_METHOD_GET         = 'GET'
+HTTP_METHOD_OPTION      = 'OPTION'
+HTTP_METHOD_PUT         = 'PUT'
+HTTP_METHOD_HEAD        = 'HEAD'
+HTTP_METHOD_DELETE      = 'DELETE'
+KEY_PERMISSION = 'permissions'
+
+HASH_METHOD_USER_ADD = 'SHA512'
+URL_SEPRATOR = '&'
+
+FB_LOGIN_URL = 'https://graph.facebook.com/me?fields='
+FB_API_LOGIN_FIELDS = 'id,name,email&access_token='
+
+SIGNUP_FIELDS = [
+    KEY_EMAIL_ID,
+    KEY_PERMISSION
+    ]
+
+SIGNIN_FIELDS = [
+    KEY_EMAIL_ID,
+    KEY_PASSWORD_HASH
+    ]
+
+SIGNUP_FIELDS = [
+    KEY_EMAIL_ID,
+    KEY_USER_NAME,
+    KEY_PASSWORD_HASH,
+    KEY_PHONE_NO
+    ]
+
+SIGNIN_FIELDS = [
+    KEY_EMAIL_ID,
+    KEY_PASSWORD_HASH
+    ]
